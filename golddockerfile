@@ -5,7 +5,7 @@ WORKDIR /app
 COPY package*.json ./
 # Install dependencies
 RUN npm install
-#Copy git code to /app directory
+#Copy git code to /app directory.
 COPY . .
 # Build the React app
 RUN npm run build
