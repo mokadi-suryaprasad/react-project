@@ -17,7 +17,7 @@ spec:
         - name: gcr-auth
       containers:
         - name: react-container
-          image: asia-docker.pkg.dev/silken-oxygen-454215-v6/react-app/react-docker@sha256:73741414154b12d0c421271fd490ce14aa8114d47a8bf7c0a2efa3c4754dfde6
+          image: suryaprasad9773/react-nginx:20250518181022
           ports:
             - containerPort: 80
 
