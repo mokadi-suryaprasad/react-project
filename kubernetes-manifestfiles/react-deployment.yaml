@@ -17,7 +17,7 @@ spec:
         - name: gcr-auth
       containers:
         - name: react-container
-          image: suryaprasad9773/react-nginx:20250518181022
+          image: suryaprasad9773/react-nginx:20250519060559
           ports:
             - containerPort: 80
 
