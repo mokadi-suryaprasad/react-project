@@ -13,8 +13,6 @@ spec:
       labels:
         app: react
     spec:
-      imagePullSecrets:
-        - name: gcr-auth
       containers:
         - name: react-container
           image: suryaprasad9773/react-nginx:20250519060559
